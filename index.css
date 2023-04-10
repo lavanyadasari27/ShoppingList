@@ -1,0 +1,67 @@
+
+ .mainHeading
+{
+    text-align: center;
+    align-items: center;
+    color: gray;
+    margin-top: 40px;
+   
+
+}
+
+.shoppingList
+{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.newTask
+{
+    padding-top: 20px;
+    padding-right: 600px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.container{
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+.addItem{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 10px; 
+    width: 800px;
+}
+.green{
+    background-color: rgb(88, 147, 88);
+}
+.delete{
+    display: flex;
+    flex-direction: row;
+}
+.delete-icon{
+    margin-top:20px;
+    margin-right: 20px;
+    color: red;
+    width: 20px;
+    height: 10px;
+}
+.strike{
+    text-decoration: line-through;
+}
+.color
+{
+    background-color:  #FDF4F5;
+    background-image: url("shopping-concept-with-bags-background-illustration-eps-10-free-vector.jpg") ;
+    
+}
